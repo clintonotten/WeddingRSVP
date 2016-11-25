@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996A9C28AAD5A9DB7645A73A /* Pods_WeddingRSVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157F365F5AA1DB53BB13956B /* Pods_WeddingRSVP.framework */; };
 		AB68A1E41DE6CEA500BD6045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */; };
 		AB68A1E91DE6CEA500BD6045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1E71DE6CEA500BD6045 /* Main.storyboard */; };
 		AB68A1EC1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */; };
 		AB68A1EE1DE6CEA500BD6045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */; };
 		AB68A1F11DE6CEA500BD6045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */; };
+		AB7E6ADE1DE830C8009FBD54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB7E6ADD1DE830C8009FBD54 /* GoogleService-Info.plist */; };
 		ABE0189E1DE82CBC00220B8B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */; };
 		ABE018A01DE82CC900220B8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0189F1DE82CC900220B8B /* LoginViewController.swift */; };
 		ABE018A21DE82CE000220B8B /* RSVPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */; };
@@ -21,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157F365F5AA1DB53BB13956B /* Pods_WeddingRSVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingRSVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB68A1E01DE6CEA400BD6045 /* WeddingRSVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingRSVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB68A1E81DE6CEA500BD6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,12 +31,15 @@
 		AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB68A1F01DE6CEA500BD6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB68A1F21DE6CEA500BD6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E6ADD1DE830C8009FBD54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		ABE0189F1DE82CC900220B8B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSVPTableViewController.swift; sourceTree = "<group>"; };
 		ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGuestViewController.swift; sourceTree = "<group>"; };
 		ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGuestViewController.swift; sourceTree = "<group>"; };
 		ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingCodeViewController.swift; sourceTree = "<group>"; };
+		FC564BDB1D0B0971B546B259 /* Pods-WeddingRSVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingRSVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingRSVP/Pods-WeddingRSVP.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0E4118D1755D0EE9903D5C /* Pods-WeddingRSVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingRSVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingRSVP/Pods-WeddingRSVP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996A9C28AAD5A9DB7645A73A /* Pods_WeddingRSVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,8 @@
 			children = (
 				AB68A1E21DE6CEA400BD6045 /* WeddingRSVP */,
 				AB68A1E11DE6CEA400BD6045 /* Products */,
+				E7DFFFCFC62E234F6DD5BA37 /* Pods */,
+				E889FE0800E5A9384E0E2A75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +86,27 @@
 				AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */,
 				AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */,
 				AB68A1F21DE6CEA500BD6045 /* Info.plist */,
+				AB7E6ADD1DE830C8009FBD54 /* GoogleService-Info.plist */,
 				AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */,
 			);
 			path = WeddingRSVP;
+			sourceTree = "<group>";
+		};
+		E7DFFFCFC62E234F6DD5BA37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC564BDB1D0B0971B546B259 /* Pods-WeddingRSVP.debug.xcconfig */,
+				FD0E4118D1755D0EE9903D5C /* Pods-WeddingRSVP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E889FE0800E5A9384E0E2A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157F365F5AA1DB53BB13956B /* Pods_WeddingRSVP.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB68A1F51DE6CEA500BD6045 /* Build configuration list for PBXNativeTarget "WeddingRSVP" */;
 			buildPhases = (
+				A953A3ADB923777329C03109 /* [CP] Check Pods Manifest.lock */,
 				AB68A1DC1DE6CEA400BD6045 /* Sources */,
 				AB68A1DD1DE6CEA400BD6045 /* Frameworks */,
 				AB68A1DE1DE6CEA400BD6045 /* Resources */,
+				87B6F73F1EE81526FB17AEB7 /* [CP] Embed Pods Frameworks */,
+				BEE6C86EB14312BFF42A2F98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,10 +175,59 @@
 				AB68A1F11DE6CEA500BD6045 /* LaunchScreen.storyboard in Resources */,
 				AB68A1EE1DE6CEA500BD6045 /* Assets.xcassets in Resources */,
 				AB68A1E91DE6CEA500BD6045 /* Main.storyboard in Resources */,
+				AB7E6ADE1DE830C8009FBD54 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87B6F73F1EE81526FB17AEB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingRSVP/Pods-WeddingRSVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A953A3ADB923777329C03109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE6C86EB14312BFF42A2F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeddingRSVP/Pods-WeddingRSVP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB68A1DC1DE6CEA400BD6045 /* Sources */ = {
@@ -283,6 +362,7 @@
 		};
 		AB68A1F61DE6CEA500BD6045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC564BDB1D0B0971B546B259 /* Pods-WeddingRSVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZX37L952Q;
@@ -296,6 +376,7 @@
 		};
 		AB68A1F71DE6CEA500BD6045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0E4118D1755D0EE9903D5C /* Pods-WeddingRSVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZX37L952Q;
