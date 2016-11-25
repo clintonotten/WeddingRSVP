@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB68A1E41DE6CEA500BD6045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */; };
+		AB68A1E91DE6CEA500BD6045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1E71DE6CEA500BD6045 /* Main.storyboard */; };
+		AB68A1EC1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */; };
+		AB68A1EE1DE6CEA500BD6045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */; };
+		AB68A1F11DE6CEA500BD6045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */; };
+		ABE0189E1DE82CBC00220B8B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */; };
+		ABE018A01DE82CC900220B8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0189F1DE82CC900220B8B /* LoginViewController.swift */; };
+		ABE018A21DE82CE000220B8B /* RSVPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */; };
+		ABE018A41DE82CED00220B8B /* NewGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */; };
+		ABE018A61DE82D0900220B8B /* DetailGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */; };
+		ABE018A81DE82D2200220B8B /* WeddingCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB68A1E01DE6CEA400BD6045 /* WeddingRSVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingRSVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB68A1E81DE6CEA500BD6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB68A1EB1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeddingRSVP.xcdatamodel; sourceTree = "<group>"; };
+		AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB68A1F01DE6CEA500BD6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB68A1F21DE6CEA500BD6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		ABE0189F1DE82CC900220B8B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSVPTableViewController.swift; sourceTree = "<group>"; };
+		ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGuestViewController.swift; sourceTree = "<group>"; };
+		ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGuestViewController.swift; sourceTree = "<group>"; };
+		ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingCodeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB68A1DD1DE6CEA400BD6045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB68A1D71DE6CEA400BD6045 = {
+			isa = PBXGroup;
+			children = (
+				AB68A1E21DE6CEA400BD6045 /* WeddingRSVP */,
+				AB68A1E11DE6CEA400BD6045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB68A1E11DE6CEA400BD6045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB68A1E01DE6CEA400BD6045 /* WeddingRSVP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB68A1E21DE6CEA400BD6045 /* WeddingRSVP */ = {
+			isa = PBXGroup;
+			children = (
+				AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */,
+				AB68A1E71DE6CEA500BD6045 /* Main.storyboard */,
+				ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */,
+				ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */,
+				ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */,
+				ABE0189F1DE82CC900220B8B /* LoginViewController.swift */,
+				ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */,
+				ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */,
+				AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */,
+				AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */,
+				AB68A1F21DE6CEA500BD6045 /* Info.plist */,
+				AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */,
+			);
+			path = WeddingRSVP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB68A1DF1DE6CEA400BD6045 /* WeddingRSVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB68A1F51DE6CEA500BD6045 /* Build configuration list for PBXNativeTarget "WeddingRSVP" */;
+			buildPhases = (
+				AB68A1DC1DE6CEA400BD6045 /* Sources */,
+				AB68A1DD1DE6CEA400BD6045 /* Frameworks */,
+				AB68A1DE1DE6CEA400BD6045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeddingRSVP;
+			productName = WeddingRSVP;
+			productReference = AB68A1E01DE6CEA400BD6045 /* WeddingRSVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB68A1D81DE6CEA400BD6045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Next Academy";
+				TargetAttributes = {
+					AB68A1DF1DE6CEA400BD6045 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WZX37L952Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB68A1DB1DE6CEA400BD6045 /* Build configuration list for PBXProject "WeddingRSVP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB68A1D71DE6CEA400BD6045;
+			productRefGroup = AB68A1E11DE6CEA400BD6045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB68A1DF1DE6CEA400BD6045 /* WeddingRSVP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB68A1DE1DE6CEA400BD6045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB68A1F11DE6CEA500BD6045 /* LaunchScreen.storyboard in Resources */,
+				AB68A1EE1DE6CEA500BD6045 /* Assets.xcassets in Resources */,
+				AB68A1E91DE6CEA500BD6045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB68A1DC1DE6CEA400BD6045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE018A41DE82CED00220B8B /* NewGuestViewController.swift in Sources */,
+				ABE018A81DE82D2200220B8B /* WeddingCodeViewController.swift in Sources */,
+				AB68A1E41DE6CEA500BD6045 /* AppDelegate.swift in Sources */,
+				ABE0189E1DE82CBC00220B8B /* SignupViewController.swift in Sources */,
+				ABE018A61DE82D0900220B8B /* DetailGuestViewController.swift in Sources */,
+				ABE018A01DE82CC900220B8B /* LoginViewController.swift in Sources */,
+				ABE018A21DE82CE000220B8B /* RSVPTableViewController.swift in Sources */,
+				AB68A1EC1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB68A1E71DE6CEA500BD6045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB68A1E81DE6CEA500BD6045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB68A1F01DE6CEA500BD6045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB68A1F31DE6CEA500BD6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB68A1F41DE6CEA500BD6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB68A1F61DE6CEA500BD6045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZX37L952Q;
+				INFOPLIST_FILE = WeddingRSVP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextacademy.WeddingRSVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB68A1F71DE6CEA500BD6045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZX37L952Q;
+				INFOPLIST_FILE = WeddingRSVP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextacademy.WeddingRSVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB68A1DB1DE6CEA400BD6045 /* Build configuration list for PBXProject "WeddingRSVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68A1F31DE6CEA500BD6045 /* Debug */,
+				AB68A1F41DE6CEA500BD6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB68A1F51DE6CEA500BD6045 /* Build configuration list for PBXNativeTarget "WeddingRSVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB68A1F61DE6CEA500BD6045 /* Debug */,
+				AB68A1F71DE6CEA500BD6045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB68A1EB1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodel */,
+			);
+			currentVersion = AB68A1EB1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodel */;
+			path = WeddingRSVP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB68A1D81DE6CEA400BD6045 /* Project object */;
+}
