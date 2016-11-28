@@ -22,25 +22,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-dt-K5v">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ESR-dW-Pnm" detailTextLabel="p4b-np-UWW" style="IBUITableViewCellStyleValue1" id="5KN-4w-TiB">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="guest" textLabel="ESR-dW-Pnm" detailTextLabel="p4b-np-UWW" style="IBUITableViewCellStyleValue1" id="5KN-4w-TiB">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5KN-4w-TiB" id="4kN-X1-enH">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ESR-dW-Pnm">
-                                                    <rect key="frame" x="15" y="11" width="45" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="45" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Y/N" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p4b-np-UWW">
-                                                    <rect key="frame" x="332" y="11" width="28" height="21"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Going" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p4b-np-UWW">
+                                                    <rect key="frame" x="314.5" y="12" width="45.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -51,13 +51,24 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="8G8-BV-3mI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hTY-TB-k2V"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="I8o-dt-K5v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6lJ-ga-yoH"/>
                             <constraint firstAttribute="trailing" secondItem="I8o-dt-K5v" secondAttribute="trailing" id="NY2-3V-fUj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I8o-dt-K5v" secondAttribute="bottom" id="S2F-NM-Tbt"/>
-                            <constraint firstItem="I8o-dt-K5v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="s7L-Kz-l4b"/>
+                            <constraint firstItem="I8o-dt-K5v" firstAttribute="top" secondItem="8G8-BV-3mI" secondAttribute="bottom" id="did-Dg-KAJ"/>
+                            <constraint firstItem="I8o-dt-K5v" firstAttribute="top" secondItem="8G8-BV-3mI" secondAttribute="bottom" id="jDy-gg-UB4"/>
+                            <constraint firstAttribute="trailing" secondItem="8G8-BV-3mI" secondAttribute="trailing" id="mCM-nH-s2u"/>
+                            <constraint firstItem="8G8-BV-3mI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="r12-su-Wpo"/>
+                            <constraint firstItem="8G8-BV-3mI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vol-WM-JhD"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="6C3-88-Juc"/>
@@ -69,6 +80,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="tableView" destination="I8o-dt-K5v" id="UrD-ZP-LKb"/>
                         <segue destination="wt5-uU-TYa" kind="show" id="4Bg-ds-qOe"/>
                     </connections>
                 </viewController>

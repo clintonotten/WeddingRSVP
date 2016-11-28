@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		996A9C28AAD5A9DB7645A73A /* Pods_WeddingRSVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157F365F5AA1DB53BB13956B /* Pods_WeddingRSVP.framework */; };
+		AB5D8D121DE83950003AB9B8 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5D8D111DE83950003AB9B8 /* Guest.swift */; };
 		AB68A1E41DE6CEA500BD6045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */; };
 		AB68A1E91DE6CEA500BD6045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB68A1E71DE6CEA500BD6045 /* Main.storyboard */; };
 		AB68A1EC1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB68A1EA1DE6CEA500BD6045 /* WeddingRSVP.xcdatamodeld */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		157F365F5AA1DB53BB13956B /* Pods_WeddingRSVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeddingRSVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D8D111DE83950003AB9B8 /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
 		AB68A1E01DE6CEA400BD6045 /* WeddingRSVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingRSVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB68A1E81DE6CEA500BD6045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB5D8D131DE8395A003AB9B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */,
+				ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */,
+				ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */,
+				ABE0189F1DE82CC900220B8B /* LoginViewController.swift */,
+				ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */,
+				ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB5D8D141DE83964003AB9B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D8D111DE83950003AB9B8 /* Guest.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		AB68A1D71DE6CEA400BD6045 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +100,8 @@
 			children = (
 				AB68A1E31DE6CEA500BD6045 /* AppDelegate.swift */,
 				AB68A1E71DE6CEA500BD6045 /* Main.storyboard */,
-				ABE018A71DE82D2200220B8B /* WeddingCodeViewController.swift */,
-				ABE018A51DE82D0900220B8B /* DetailGuestViewController.swift */,
-				ABE0189D1DE82CBC00220B8B /* SignupViewController.swift */,
-				ABE0189F1DE82CC900220B8B /* LoginViewController.swift */,
-				ABE018A11DE82CE000220B8B /* RSVPTableViewController.swift */,
-				ABE018A31DE82CED00220B8B /* NewGuestViewController.swift */,
+				AB5D8D141DE83964003AB9B8 /* Models */,
+				AB5D8D131DE8395A003AB9B8 /* ViewControllers */,
 				AB68A1ED1DE6CEA500BD6045 /* Assets.xcassets */,
 				AB68A1EF1DE6CEA500BD6045 /* LaunchScreen.storyboard */,
 				AB68A1F21DE6CEA500BD6045 /* Info.plist */,
@@ -236,6 +255,7 @@
 			files = (
 				ABE018A41DE82CED00220B8B /* NewGuestViewController.swift in Sources */,
 				ABE018A81DE82D2200220B8B /* WeddingCodeViewController.swift in Sources */,
+				AB5D8D121DE83950003AB9B8 /* Guest.swift in Sources */,
 				AB68A1E41DE6CEA500BD6045 /* AppDelegate.swift in Sources */,
 				ABE0189E1DE82CBC00220B8B /* SignupViewController.swift in Sources */,
 				ABE018A61DE82D0900220B8B /* DetailGuestViewController.swift in Sources */,
